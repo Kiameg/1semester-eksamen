@@ -1,3 +1,63 @@
+/**********desktop**********/
+
 body {
-  background-color: rgb(252, 215, 164);
+  background-color: #0b1e34;
+  background-image: url(img/baggrund.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 65% 0;
+  max-width: 1600px;
+}
+
+/**********menu**********/
+#menu {
+  display: grid;
+  grid-template-columns: 25% 40%;
+}
+
+li a {
+  color: #edc6fe;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/**********font**********/
+h1 {
+  font-family: "Fira Mono", monospace;
+  color: #d995f5;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: #edc6fe;
+}
+
+.mit_navn {
+  font-family: "Courier New", Courier, monospace;
+  color: #d995f5;
+}
+
+.indhold_index {
+  display: grid;
+  justify-content: center;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  color: #edc6fe;
+}
+/**********logo**********/
+.logo_img {
+  width: 200px;
+  height: 100px;
+  margin-left: 2rem;
 }
