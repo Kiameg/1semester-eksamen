@@ -6,13 +6,16 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-position: 65% 0;
+}
+
+main {
   max-width: 1600px;
 }
 
 /**********menu**********/
 #menu {
   display: grid;
-  grid-template-columns: 25% 40%;
+  grid-template-columns: 35% 45%;
 }
 
 li a {
@@ -59,6 +62,7 @@ p {
 .indhold_index {
   display: grid;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 /**********detaljer**********/
@@ -68,13 +72,20 @@ p {
   margin-left: 2rem;
 }
 
+.forside_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  justify-items: center;
+  padding: 60px 90px 0px 90px;
+}
+
 .om_mig_knap {
   text-decoration: none;
   font-size: 1.1rem;
   font-family: "Roboto Mono", monospace;
   border: none;
   padding: 24px;
-  margin: 20px;
   width: 150px;
   text-transform: uppercase;
   border-radius: 6px;
@@ -92,8 +103,15 @@ p {
 footer {
   background-color: #595476;
   color: #edc6fe;
-  padding: 2rem;
+  padding: 1rem;
   font-family: "Roboto Mono", monospace;
+  display: flex;
+  gap: 1rem;
+  margin-top: 20rem;
+}
+
+hr {
+  color: #edc6fe;
 }
 
 /**********hide screen*********/
