@@ -72,12 +72,70 @@ p {
   margin-left: 2rem;
 }
 
+.header_icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.header_icons :first-child {
+  margin-right: auto;
+}
+
+.insta_icon {
+  width: 3%;
+  padding: 1rem;
+}
+
+.face_icon {
+  width: 3%;
+  padding: 1rem;
+}
+
+.mail_icon {
+  width: 3.6%;
+  padding: 1rem;
+}
+
 .forside_img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
   justify-items: center;
   padding: 60px 90px 0px 90px;
+}
+.subject2,
+.subject3,
+.subject4,
+.subject5 {
+  width: 100%;
+  aspect-ratio: 16/9;
+  text-align: center;
+  background-color: #0c2139;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.text_front2,
+.text_front3,
+.text_front4,
+.text_front5 {
+  font-size: 5rem;
+  padding-top: 5rem;
+}
+
+.background_subject2 {
+  background-image: url(img/tema2.webp);
+}
+
+.background_subject3 {
+  background-image: url(img/UX.webp);
+}
+
+.background_subject4 {
+  background-image: url(img/tema4.webp);
+}
+.background_subject5 {
+  background-image: url(img/tema5.webp);
 }
 
 .om_mig_knap {
@@ -103,10 +161,10 @@ p {
 footer {
   background-color: #595476;
   color: #edc6fe;
-  padding: 1rem;
+  padding: 2rem;
   font-family: "Roboto Mono", monospace;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin-top: 20rem;
 }
 
