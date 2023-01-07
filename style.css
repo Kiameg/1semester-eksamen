@@ -198,7 +198,7 @@ hr {
 
 .indhold_mig {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 60% 1fr;
 }
 
 .h1_om_mig {
@@ -211,4 +211,24 @@ hr {
   font-family: "Courier New", Courier, monospace;
   color: #edc6fe;
   font-size: 1.2rem;
+}
+
+.skills1,
+.skills2 {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0;
+  color: #edc6fe;
+  gap: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.skills1 li,
+.skills2 li {
+  margin-left: -40px;
+}
+
+.skills_con {
+  display: flex;
+  gap: 70px;
 }
