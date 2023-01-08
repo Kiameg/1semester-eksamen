@@ -44,94 +44,102 @@ ul li a:hover {
   height: 100px;
   margin-left: 2rem;
 }
+.icons {
+  position: fixed;
+  bottom: 400px;
+  right: 50px;
+}
+
+.icons ul li a img {
+  width: 50px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.icons ul li a img:hover {
+  filter: brightness(200%) contrast(100%);
+  transform: translateY(-3px);
+}
+
 header {
   grid-area: header;
 }
 
-.header_icons {
-  display: flex;
-  flex-direction: row;
-}
-
-.header_icons :first-child {
-  margin-right: auto;
-}
-
-.insta_icon {
-  width: 3%;
-  padding: 1rem;
-}
-
-.face_icon {
-  width: 3%;
-  padding: 1rem;
-}
-
-.mail_icon {
-  width: 3.6%;
-  padding: 1rem;
-}
-
 footer {
-  background-color: #595476;
   color: #edc6fe;
   padding: 2rem;
+  text-align: center;
   font-family: "Roboto Mono", monospace;
-  display: flex;
   gap: 2rem;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 
-/**********indhold**********/
-
-.tema2_indhold {
+.tema3_indhold {
   background-color: rgba(90, 85, 119, 0.199);
   grid-area: indhold;
   padding: 2rem;
 }
 
-.tema2_h1 {
-  font-family: "Fira Mono", monospace;
+.tema3_h1 {
+  font-family: "Roboto Mono", monospace;
   color: #d995f5;
   font-size: 2.5rem;
   grid-area: h1;
 }
 
-.column_tema2 img {
+.column_tema3 img {
   width: 500px;
   height: 299px;
 }
-.website_01 {
+.tema3_1 {
   border-radius: 6px;
   border-color: #edc6fe;
   border-style: solid;
 }
-.column_tema2 {
+.column_tema3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  grid-template-areas:
+    "box1 box4"
+    "box5 box2"
+    "box3 box6";
+}
+.box1 {
+  grid-area: box1;
+}
+.box2 {
+  grid-area: box2;
 }
 
-.tema2_p {
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
+
+.box5 {
+  grid-area: box5;
+}
+.box6 {
+  grid-area: box6;
+}
+.tema3_p {
   width: 506px;
   margin: 0;
   font-family: "Courier New", Courier, monospace;
   color: #edc6fe;
 }
 
-.emnesite_01 {
+.tema3_2 {
   border-radius: 6px;
   border-color: #edc6fe;
   border-style: solid;
 }
 
-.emnesite_02 {
-  border-radius: 6px;
-  border-color: #edc6fe;
-  border-style: solid;
-}
-
-.emnesite_03 {
+.tema3_3 {
   border-radius: 6px;
   border-color: #edc6fe;
   border-style: solid;

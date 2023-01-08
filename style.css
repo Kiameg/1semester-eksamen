@@ -17,6 +17,22 @@ main {
   display: grid;
   grid-template-columns: 35% 45%;
 }
+.icons {
+  position: fixed;
+  bottom: 400px;
+  right: 50px;
+}
+
+.icons ul li a img {
+  width: 50px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.icons ul li a img:hover {
+  filter: brightness(200%) contrast(100%);
+  transform: translateY(-3px);
+}
 
 li a {
   color: #edc6fe;
@@ -77,29 +93,6 @@ ul li a:hover {
   margin-left: 2rem;
 }
 
-.header_icons {
-  display: flex;
-  flex-direction: row;
-}
-
-.header_icons :first-child {
-  margin-right: auto;
-}
-
-.insta_icon {
-  width: 3%;
-  padding: 1rem;
-}
-
-.face_icon {
-  width: 3%;
-  padding: 1rem;
-}
-
-.mail_icon {
-  width: 3.6%;
-  padding: 1rem;
-}
 /**********forside billeder**********/
 
 /**********grid på billeder**********/
@@ -169,13 +162,12 @@ ul li a:hover {
 }
 
 footer {
-  background-color: #595476;
   color: #edc6fe;
   padding: 2rem;
+  text-align: center;
   font-family: "Roboto Mono", monospace;
-  display: flex;
   gap: 2rem;
-  margin-top: 20rem;
+  margin-top: 10rem;
 }
 /**********linje på siden**********/
 hr {
