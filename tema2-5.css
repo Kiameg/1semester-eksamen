@@ -77,7 +77,7 @@ footer {
 
 /**********indhold**********/
 
-.tema2_indhold {
+.tema_indhold {
   background-color: rgba(90, 85, 119, 0.199);
   grid-area: indhold;
   padding: 2rem;
@@ -85,43 +85,43 @@ footer {
   color: #edc6fe;
 }
 
-.box1 {
-  grid-area: box1;
+.img1 {
+  grid-area: img1;
 }
-.box2 {
-  grid-area: box2;
-}
-
-.box3 {
-  grid-area: box3;
+.img2 {
+  grid-area: img2;
 }
 
-.box4 {
-  grid-area: box4;
+.img3 {
+  grid-area: img3;
 }
 
-.box5 {
-  grid-area: box5;
-}
-.box6 {
-  grid-area: box6;
+.img4 {
+  grid-area: img4;
 }
 
-.box7 {
-  grid-area: box7;
+.p1 {
+  grid-area: p1;
 }
-.box8 {
-  grid-area: box8;
+.p2 {
+  grid-area: p2;
 }
 
-.tema2_h1 {
+.p3 {
+  grid-area: p3;
+}
+.p4 {
+  grid-area: p4;
+}
+
+.tema_h1 {
   font-family: "Fira Mono", monospace;
   color: #d995f5;
   font-size: 2.5rem;
   grid-area: h1;
 }
 
-.column_tema2 img {
+.tema_column img {
   width: 500px;
   height: 299px;
 }
@@ -130,30 +130,18 @@ footer {
   border-color: #edc6fe;
   border-style: solid;
 }
-.column_tema2 {
+.tema_column {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   grid-template-areas:
-    "box1 box2"
-    "box3 box4"
-    "box5 box6"
-    "box7 box8";
+    "img1 p1"
+    "p2 img2"
+    "img3 p3"
+    "p4 img4";
 }
 
-.emnesite_01 {
-  border-radius: 6px;
-  border-color: #edc6fe;
-  border-style: solid;
-}
-
-.emnesite_02 {
-  border-radius: 6px;
-  border-color: #edc6fe;
-  border-style: solid;
-}
-
-.emnesite_03 {
+.tema_column div img {
   border-radius: 6px;
   border-color: #edc6fe;
   border-style: solid;
