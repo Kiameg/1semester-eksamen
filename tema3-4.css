@@ -10,7 +10,7 @@ main {
   max-width: 1300px;
 }
 
-/**********menu**********/
+/**********grid_header/h1/indhold/**********/
 
 #menu {
   display: grid;
@@ -20,6 +20,7 @@ main {
     "header indhold";
 }
 
+/**********nav bar**********/
 li a {
   color: #edc6fe;
   text-decoration: none;
@@ -39,11 +40,14 @@ ul li a:hover {
   color: #d995f5;
   text-shadow: 0 0 5px #774b88;
 }
+
+/**********logo og ikoner**********/
 .logo_img {
   width: 200px;
   height: 100px;
   margin-left: 2rem;
 }
+
 .icons {
   position: fixed;
   bottom: 400px;
@@ -73,7 +77,7 @@ footer {
   gap: 2rem;
   margin-top: 10rem;
 }
-
+/**********indhold**********/
 .tema_indhold {
   background-color: rgba(90, 85, 119, 0.199);
   grid-area: indhold;
@@ -81,7 +85,7 @@ footer {
   font-family: "Courier New", Courier, monospace;
   color: #edc6fe;
 }
-
+/**********img/h1**********/
 .tema_h1 {
   font-family: "Roboto Mono", monospace;
   color: #d995f5;
@@ -96,7 +100,7 @@ footer {
   border-color: #edc6fe;
   border-style: solid;
 }
-
+/**********grid_areas**********/
 .tema_column {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -17,6 +17,13 @@ main {
   display: grid;
   grid-template-columns: 35% 45%;
 }
+
+/**********logo og ikoner**********/
+.logo_img {
+  width: 200px;
+  height: 100px;
+  margin-left: 2rem;
+}
 .icons {
   position: fixed;
   bottom: 400px;
@@ -33,7 +40,7 @@ main {
   filter: brightness(200%) contrast(100%);
   transform: translateY(-3px);
 }
-
+/*********nav bar**********/
 li a {
   color: #edc6fe;
   text-decoration: none;
@@ -86,13 +93,6 @@ ul li a:hover {
   margin-bottom: 60px;
 }
 
-/**********logo og icons**********/
-.logo_img {
-  width: 200px;
-  height: 100px;
-  margin-left: 2rem;
-}
-
 /**********forside billeder**********/
 
 /**********grid på billeder**********/
@@ -128,17 +128,21 @@ ul li a:hover {
 /*********baggrund på billederne**********/
 .background_subject2 {
   background-image: url(img/tema2.webp);
+  background-size: cover;
 }
 
 .background_subject3 {
-  background-image: url(img/UX.webp);
+  background-image: url(img/xd-prototype.webp);
+  background-size: cover;
 }
 
 .background_subject4 {
   background-image: url(img/tema4.webp);
+  background-size: cover;
 }
 .background_subject5 {
   background-image: url(img/tema5.webp);
+  background-size: cover;
 }
 
 /**********om_mig knap**********/
@@ -185,17 +189,18 @@ hr {
 .om_mig {
   padding: 4rem;
 }
+/**********indhold_grid**********/
+.indhold_mig {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+}
+/**********img**********/
 .portrait_mig {
   border-radius: 25px;
   margin-top: 3rem;
   margin-left: 3rem;
 }
-
-.indhold_mig {
-  display: grid;
-  grid-template-columns: 60% 1fr;
-}
-
+/**********text**********/
 .h1_om_mig {
   font-family: "Fira Mono", monospace;
   color: #d995f5;
@@ -226,10 +231,4 @@ hr {
 .skills_con {
   display: flex;
   gap: 70px;
-}
-
-/*********tema2**********/
-
-.tema2_indhold {
-  background-color: rgba(90, 85, 119, 0.199);
 }

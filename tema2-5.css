@@ -10,7 +10,7 @@ main {
   max-width: 1300px;
 }
 
-/**********menu**********/
+/**********grid_header/h1/indhold**********/
 
 #menu {
   display: grid;
@@ -20,6 +20,7 @@ main {
     "header indhold";
 }
 
+/**********nav bar**********/
 li a {
   color: #edc6fe;
   text-decoration: none;
@@ -39,6 +40,7 @@ ul li a:hover {
   color: #d995f5;
   text-shadow: 0 0 5px #774b88;
 }
+/**********logo og ikoner**********/
 .logo_img {
   width: 200px;
   height: 100px;
@@ -85,6 +87,34 @@ footer {
   color: #edc6fe;
 }
 
+/**********img/h1**********/
+
+.tema_h1 {
+  font-family: "Fira Mono", monospace;
+  color: #d995f5;
+  font-size: 2.5rem;
+  grid-area: h1;
+}
+
+.tema_column img {
+  width: 500px;
+  height: 299px;
+  border-radius: 6px;
+  border-color: #edc6fe;
+  border-style: solid;
+}
+/**********grid_areas**********/
+
+.tema_column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-template-areas:
+    "img1 p1"
+    "p2 img2"
+    "img3 p3"
+    "p4 img4";
+}
 .img1 {
   grid-area: img1;
 }
@@ -112,37 +142,4 @@ footer {
 }
 .p4 {
   grid-area: p4;
-}
-
-.tema_h1 {
-  font-family: "Fira Mono", monospace;
-  color: #d995f5;
-  font-size: 2.5rem;
-  grid-area: h1;
-}
-
-.tema_column img {
-  width: 500px;
-  height: 299px;
-}
-.website_01 {
-  border-radius: 6px;
-  border-color: #edc6fe;
-  border-style: solid;
-}
-.tema_column {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  grid-template-areas:
-    "img1 p1"
-    "p2 img2"
-    "img3 p3"
-    "p4 img4";
-}
-
-.tema_column div img {
-  border-radius: 6px;
-  border-color: #edc6fe;
-  border-style: solid;
 }
