@@ -69,6 +69,21 @@ header {
   grid-area: header;
 }
 
+.klik_her {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: "Roboto Mono", monospace;
+  border: none;
+  padding: 15px;
+  width: 100px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #edc6fe;
+  background-size: 200%;
+  background-image: linear-gradient(to left, #fda7df, #9980fa, #fda7df);
+  transition: 0.6s;
+}
+
 footer {
   color: #edc6fe;
   padding: 2rem;
@@ -84,6 +99,7 @@ footer {
   padding: 2rem;
   font-family: "Courier New", Courier, monospace;
   color: #edc6fe;
+  max-width: 1110px;
 }
 /**********img/h1**********/
 .tema_h1 {
