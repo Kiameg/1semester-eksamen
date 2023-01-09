@@ -68,20 +68,14 @@ ul li a:hover {
   margin-bottom: 8rem;
 }
 
-.index_h2 {
-  font-family: "Courier New", Courier, monospace;
-  color: #edc6fe;
-  font-size: 2rem;
-}
-
 .index_p {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Regular", monospace;
   color: #edc6fe;
   font-size: 1.5rem;
 }
 
 .mit_navn {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Regular", monospace;
   color: #d995f5;
   margin-top: 7rem;
   font-size: 1.5rem;
@@ -209,7 +203,7 @@ hr {
 }
 .p_mig {
   font-family: "Roboto Regular", monospace;
-  color: #b18dc0;
+  color: #edc6fe;
   font-size: 1.2rem;
 }
 .skills_con {

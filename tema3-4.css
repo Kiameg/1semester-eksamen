@@ -83,6 +83,9 @@ header {
   background-image: linear-gradient(to left, #fda7df, #9980fa, #fda7df);
   transition: 0.6s;
 }
+.klik_her:hover {
+  background-position: right;
+}
 
 footer {
   color: #edc6fe;
@@ -94,12 +97,13 @@ footer {
 }
 /**********indhold**********/
 .tema_indhold {
-  background-color: rgba(90, 85, 119, 0.199);
+  background-color: #0c2139;
   grid-area: indhold;
   padding: 2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", monospace;
   color: #edc6fe;
   max-width: 1110px;
+  border-radius: 6px;
 }
 /**********img/h1**********/
 .tema_h1 {

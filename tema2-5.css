@@ -99,13 +99,14 @@ footer {
 /**********indhold**********/
 
 .tema_indhold {
-  background-color: rgba(90, 85, 119, 0.199);
+  background-color: #0c2139;
   grid-area: indhold;
   padding: 2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Regular", monospace;
   color: #edc6fe;
   font-size: 1.1rem;
   max-width: 1110px;
+  border-radius: 6px;
 }
 
 /**********img/h1**********/
