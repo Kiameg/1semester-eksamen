@@ -15,7 +15,7 @@ main {
 /**********menu**********/
 #menu {
   display: grid;
-  grid-template-columns: 35% 45%;
+  grid-template-columns: 35% 50%;
 }
 
 /**********logo og ikoner**********/
@@ -208,11 +208,14 @@ hr {
   margin: 0;
 }
 .p_mig {
-  font-family: "Courier New", Courier, monospace;
-  color: #edc6fe;
+  font-family: "Roboto Regular", monospace;
+  color: #b18dc0;
   font-size: 1.2rem;
 }
-
+.skills_con {
+  display: flex;
+  gap: 70px;
+}
 .skills1,
 .skills2 {
   list-style-type: circle;
@@ -220,7 +223,7 @@ hr {
   margin: 0;
   color: #edc6fe;
   gap: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Regular", monospace;
 }
 
 .skills1 li,
@@ -228,7 +231,19 @@ hr {
   margin-left: -40px;
 }
 
-.skills_con {
-  display: flex;
-  gap: 70px;
+.Cv1 {
+  color: #edc6fe;
+  font-family: "Roboto Regular", monospace;
+}
+.Cv2 {
+  color: #edc6fe;
+  font-family: "Roboto Regular", monospace;
+  margin-left: 4rem;
+}
+.skills3 {
+  color: #edc6fe;
+  gap: 2px;
+  font-family: "Roboto Regular", monospace;
+  margin-left: 4rem;
+  background: #0b1e34;
 }
