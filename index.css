@@ -22,11 +22,10 @@ main {
 .logo_img {
   width: 200px;
   height: 100px;
-  margin-left: 2rem;
 }
 .icons {
   position: fixed;
-  bottom: 400px;
+  bottom: 320px;
   right: 50px;
 }
 

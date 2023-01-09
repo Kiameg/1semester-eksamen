@@ -1,0 +1,80 @@
+/**********desktop**********/
+
+body {
+  background-color: #0b1e34;
+  background-image: url(img/baggrund.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 65% 0;
+}
+
+main {
+  max-width: 1600px;
+}
+
+/**********menu**********/
+#menu {
+  display: grid;
+  grid-template-columns: 30% 50%;
+}
+
+/**********logo og ikoner**********/
+.logo_img {
+  width: 200px;
+  height: 100px;
+  margin-left: 2rem;
+}
+.icons {
+  position: fixed;
+  bottom: 400px;
+  right: 50px;
+}
+
+.icons ul li a img {
+  width: 50px;
+  height: 50px;
+  transition: 0.25s;
+}
+
+.icons ul li a img:hover {
+  filter: brightness(200%) contrast(100%);
+  transform: translateY(-3px);
+}
+/*********nav bar**********/
+li a {
+  color: #edc6fe;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+ul li a:hover {
+  color: #d995f5;
+  text-shadow: 0 0 5px #774b88;
+}
+
+footer {
+  color: #edc6fe;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  gap: 2rem;
+  margin-top: 10rem;
+}
+
+/**********indhold**********/
+
+.tema_h1 {
+  font-family: "Roboto Mono", monospace;
+  color: #d995f5;
+  font-size: 2.5rem;
+  grid-area: h1;
+}
