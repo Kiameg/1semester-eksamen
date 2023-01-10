@@ -16,6 +16,7 @@ main {
 #menu {
   display: grid;
   grid-template-columns: 35% 50%;
+  margin-bottom: 10rem;
 }
 
 /**********logo og ikoner**********/
@@ -262,10 +263,12 @@ hr {
 @media (max-width: 600px) {
   #menu {
     display: grid;
-    grid-template-columns: 28% 60%;
+    grid-template-columns: 20% 60%;
     grid-template-rows: 1fr;
+    align-content: center;
   }
   /* burgermenu */
+
   .nav_bar.shown {
     display: contents;
   }
@@ -296,15 +299,12 @@ hr {
   }
 
   /**********ikoner**********/
-
   .logo_img {
     width: 100px;
   }
 
   .icons {
-    position: relative;
-    margin-left: 10px;
-    bottom: 200px;
+    display: none;
   }
 
   .icons ul li a img {

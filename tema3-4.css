@@ -164,14 +164,10 @@ footer {
 /* burgermenu */
 .toggle-btn {
   background: transparent;
-  color: #edc6fe;
   border: none;
   min-width: 44px;
   min-height: 44px;
-  font-family: "Roboto Regular", monospace;
-  font-size: 1.1rem;
   cursor: pointer;
-  display: none;
   margin-left: 0.5rem;
   padding-bottom: 1rem;
 }
@@ -218,9 +214,7 @@ footer {
   }
 
   .icons {
-    position: relative;
-    bottom: 1500px;
-    right: 90px;
+    display: none;
   }
 
   .icons ul li a img {

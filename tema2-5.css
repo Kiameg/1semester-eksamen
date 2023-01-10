@@ -230,9 +230,7 @@ footer {
   }
 
   .icons {
-    position: relative;
-    bottom: 2200px;
-    right: 90px;
+    display: none;
   }
 
   .icons ul li a img {
