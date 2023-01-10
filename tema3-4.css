@@ -21,6 +21,10 @@ main {
 }
 
 /**********nav bar**********/
+header ul {
+  position: fixed;
+}
+
 li a {
   color: #edc6fe;
   text-decoration: none;
@@ -49,7 +53,7 @@ ul li a:hover {
 
 .icons {
   position: fixed;
-  bottom: 400px;
+  bottom: 320px;
   right: 50px;
 }
 
@@ -104,6 +108,7 @@ footer {
   max-width: 1110px;
   border-radius: 6px;
 }
+
 /**********img/h1**********/
 .tema_h1 {
   font-family: "Roboto Mono", monospace;
@@ -120,6 +125,10 @@ footer {
   border-style: solid;
 }
 /**********grid_areas**********/
+.tema_column p {
+  margin: 0;
+}
+
 .tema_column {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -128,6 +137,7 @@ footer {
     "img1 p1"
     "p2 img2"
     "img3 p3";
+  gap: 50px;
 }
 .img1 {
   grid-area: img1;

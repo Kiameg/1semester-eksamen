@@ -190,8 +190,10 @@ hr {
 /**********img**********/
 .portrait_mig {
   border-radius: 25px;
-  margin-top: 3rem;
   margin-left: 3rem;
+  border-color: #edc6fe;
+  border-style: solid;
+  margin-top: 1rem;
 }
 /**********text**********/
 .h1_om_mig {
@@ -232,6 +234,7 @@ hr {
   color: #edc6fe;
   font-family: "Roboto Regular", monospace;
   margin-left: 4rem;
+  margin-top: 2rem;
 }
 .skills3 {
   color: #edc6fe;

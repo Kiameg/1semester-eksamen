@@ -40,6 +40,10 @@ ul li a:hover {
   color: #d995f5;
   text-shadow: 0 0 5px #774b88;
 }
+
+header ul {
+  position: fixed;
+}
 /**********logo og ikoner**********/
 .logo_img {
   width: 200px;
@@ -48,7 +52,7 @@ ul li a:hover {
 
 .icons {
   position: fixed;
-  bottom: 400px;
+  bottom: 320px;
   right: 50px;
 }
 
@@ -125,6 +129,9 @@ footer {
   border-style: solid;
 }
 /**********grid_areas**********/
+.tema_column p {
+  margin: 0;
+}
 
 .tema_column {
   display: grid;
@@ -135,6 +142,7 @@ footer {
     "p2 img2"
     "img3 p3"
     "p4 img4";
+  gap: 50px;
 }
 .img1 {
   grid-area: img1;
