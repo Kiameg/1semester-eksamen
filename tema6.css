@@ -77,3 +77,90 @@ footer {
   font-size: 2.5rem;
   grid-area: h1;
 }
+/**********grid_areas**********/
+.tema_column img {
+  width: 500px;
+  border-radius: 6px;
+  border-color: #edc6fe;
+  border-style: solid;
+}
+
+.tema_column p {
+  margin: 0;
+}
+
+.tema_column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-template-areas:
+    "img1 p1"
+    "p2 img2"
+    "img3 p3"
+    "p4 img4"
+    "img5 p5 "
+    "p6 img6"
+    "img7 p7 "
+    "p8 img8";
+  gap: 50px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.img8 {
+  grid-area: img8;
+}
+
+.p1 {
+  grid-area: p1;
+}
+.p2 {
+  grid-area: p2;
+}
+
+.p3 {
+  grid-area: p3;
+}
+.p4 {
+  grid-area: p4;
+}
+
+.p5 {
+  grid-area: p5;
+}
+
+.p6 {
+  grid-area: p6;
+}
+
+.p7 {
+  grid-area: p7;
+}
+
+.p8 {
+  grid-area: p8;
+}
