@@ -1,4 +1,7 @@
 window.addEventListener("load", sidenVises);
+const btn = document.querySelector(".toggle-btn");
+const menu = document.querySelector(".nav_bar");
+const menuShown = menu.classList.contains("shown");
 
 /**********Her loades index og når den loader gemmer/hider den "Om Mig" siden**********/
 function sidenVises() {
@@ -13,16 +16,6 @@ function omMig() {
   document.querySelector(".indhold_index").classList.add("hide");
   document.querySelector(".om_mig").classList.remove("hide");
 }
-
-/*********Kører funktion når mouseover eller mouseleave**********/
-document.querySelector(".subject2").addEventListener("mouseover", backgroundSubject2);
-document.querySelector(".subject2").addEventListener("mouseleave", backgroundSubject2exit);
-document.querySelector(".subject3").addEventListener("mouseover", backgroundSubject3);
-document.querySelector(".subject3").addEventListener("mouseleave", backgroundSubject3exit);
-document.querySelector(".subject4").addEventListener("mouseover", backgroundSubject4);
-document.querySelector(".subject4").addEventListener("mouseleave", backgroundSubject4exit);
-document.querySelector(".subject5").addEventListener("mouseover", backgroundSubject5);
-document.querySelector(".subject5").addEventListener("mouseleave", backgroundSubject5exit);
 
 /**********Function billede2. tilføjer backgrundsbillede **********/
 function backgroundSubject2() {
@@ -67,3 +60,30 @@ function backgroundSubject5exit() {
   console.log("backgroundSubject5");
   document.querySelector(".subject5").classList.remove("background_subject5");
 }
+/*********Kører funktion når mouseover eller mouseleave**********/
+document.querySelector(".subject2").addEventListener("mouseover", backgroundSubject2);
+document.querySelector(".subject2").addEventListener("mouseleave", backgroundSubject2exit);
+document.querySelector(".subject3").addEventListener("mouseover", backgroundSubject3);
+document.querySelector(".subject3").addEventListener("mouseleave", backgroundSubject3exit);
+document.querySelector(".subject4").addEventListener("mouseover", backgroundSubject4);
+document.querySelector(".subject4").addEventListener("mouseleave", backgroundSubject4exit);
+document.querySelector(".subject5").addEventListener("mouseover", backgroundSubject5);
+document.querySelector(".subject5").addEventListener("mouseleave", backgroundSubject5exit);
+
+function toggleMenu() {
+  // a) toggle klassen "shown" på menu vha. classList.toggle
+  menu.classList.toggle("shown");
+
+  // c) spørg om "menuShown" i if-sætningen nedenfor (=> if (menuShown)), og udskift teksten
+  if (menuShown) {
+    console.log(menuShown); // se i konsollen
+    // sæt btn.textContent til "Luk", hvis menuShown er "true"
+    btn.textContent = "Luk";
+  } else {
+    console.log(menuShown); // se i konsollen
+    // sæt btn.textContent til "Menu", hvis menuShown er "false"
+    btn.textContent = "Menu";
+  }
+}
+// Tilføj et klik-event til "btn", der sætter toggleMenu-funktionen i gang
+btn.addEventListener("click", toggleMenu);

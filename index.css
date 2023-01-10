@@ -243,3 +243,166 @@ hr {
   margin-left: 4rem;
   background: #0b1e34;
 }
+/***********mobile**********/
+/* burgermenu */
+.toggle-btn {
+  background: transparent;
+  color: #edc6fe;
+  border: none;
+  min-width: 44px;
+  min-height: 44px;
+  font-family: "Roboto Regular", monospace;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none;
+  margin-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  #menu {
+    display: grid;
+    grid-template-columns: 28% 60%;
+    grid-template-rows: 1fr;
+  }
+  /* burgermenu */
+  .nav_bar.shown {
+    display: contents;
+  }
+
+  .toggle-btn {
+    display: block;
+  }
+  .nav_bar ul {
+    display: none;
+  }
+
+  .nav_bar.shown ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+  /***********nye design på menu**********/
+  li a {
+    font-size: 0.7rem;
+  }
+
+  ul li a:hover {
+    color: #d995f5;
+    text-shadow: 0 0 5px #774b88;
+  }
+
+  /**********ikoner**********/
+
+  .logo_img {
+    width: 100px;
+  }
+
+  .icons {
+    position: relative;
+    margin-left: 10px;
+    bottom: 200px;
+  }
+
+  .icons ul li a img {
+    width: 30px;
+    transition: 0.25s;
+  }
+
+  /**********font**********/
+  .index_h1 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .index_p {
+    font-size: 1rem;
+  }
+
+  .mit_navn {
+    margin-top: 5rem;
+    font-size: 1rem;
+  }
+
+  .om_mig_knap {
+    font-size: 1rem;
+    padding: 15px;
+    width: 100px;
+  }
+  /**********grid på billeder**********/
+  .forside_img {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /*********tekst på billeder**********/
+  .text_front2,
+  .text_front3,
+  .text_front4,
+  .text_front5 {
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .om_mig {
+    padding: 0;
+  }
+  /**********indhold_grid**********/
+  .indhold_mig {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: 60% 1fr;
+    justify-content: center;
+  }
+  /**********img**********/
+  .portrait_mig {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 150px;
+  }
+  /**********text**********/
+  .h1_om_mig {
+    font-size: 1.2rem;
+  }
+  .p_mig {
+    font-family: "Roboto Regular", monospace;
+    color: #edc6fe;
+    font-size: 0.7rem;
+  }
+  .skills_con {
+    display: flex;
+  }
+
+  .skills2,
+  .skills1 {
+    margin: 0;
+    gap: 5px;
+    font-size: 0.6rem;
+  }
+
+  .skills1 li,
+  .skills2 li {
+    margin-left: -40px;
+  }
+
+  .Cv1 {
+    color: #edc6fe;
+    font-family: "Roboto Regular", monospace;
+    font-size: 1rem;
+  }
+  .Cv2 {
+    color: #edc6fe;
+    font-family: "Roboto Regular", monospace;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  .skills3 {
+    gap: 2px;
+    margin-left: 2rem;
+    font-size: 0.7rem;
+  }
+}
