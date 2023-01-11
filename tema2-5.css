@@ -237,6 +237,12 @@ footer {
     width: 30px;
     transition: 0.25s;
   }
+  /**********ændringer på knap**********/
+  .klik_her {
+    font-size: 0.6rem;
+    padding: 12px;
+    width: 70px;
+  }
 
   /**********indhold**********/
 
@@ -255,7 +261,7 @@ footer {
   .tema_h1 {
     font-family: "Roboto Mono", monospace;
     color: #d995f5;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 5rem;
     grid-area: h1;
   }

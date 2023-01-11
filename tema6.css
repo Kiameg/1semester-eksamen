@@ -158,22 +158,6 @@ footer {
   grid-area: p4;
 }
 
-.p5 {
-  grid-area: p5;
-}
-
-.p6 {
-  grid-area: p6;
-}
-
-.p7 {
-  grid-area: p7;
-}
-
-.p8 {
-  grid-area: p8;
-}
-
 /***********mobile**********/
 /* burgermenu */
 .toggle-btn {
@@ -258,7 +242,7 @@ footer {
   .tema_h1 {
     font-family: "Roboto Mono", monospace;
     color: #d995f5;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 5rem;
     grid-area: h1;
   }
@@ -275,22 +259,22 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    gap: 20px;
     grid-template-areas:
       "img1"
       "p1"
       "img2"
       "p2"
       "img3"
-      "p3"
       "img4"
-      "p4"
       "img5"
-      "p5"
       "img6"
-      "p6"
       "img7"
-      "p7"
-      "img8";
+      "img8"
+      "img9"
+      "img10"
+      "p3"
+      "img11"
+      "p4"
+      "img12";
   }
 }
