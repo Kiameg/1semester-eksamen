@@ -170,6 +170,7 @@ footer {
   cursor: pointer;
   margin-left: 0.5rem;
   padding-bottom: 1rem;
+  display: none;
 }
 
 @media (max-width: 600px) {
